@@ -1,27 +1,33 @@
 {
-  "name": "todo-your-action-name",
-  "version": "1.0.0",
-  "description": "todo your description",
+  "name": "pull-request-comment-branch",
+  "version": "2.0.0",
+  "description": "Gets the head ref and sha of a pull request comment",
   "main": "dist/action.js",
   "scripts": {
     "format": "prettier . --write",
     "lint": "npx eslint .",
     "bundle": "ncc build src/action.ts -o bundle",
-    "test": "echo \"Error: no test specified\"",
+    "test": "tsc --noEmit",
     "build": "tsc",
     "prepare": "husky",
     "release": "npx semantic-release"
   },
+  "keywords": [
+    "actions"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/HanseltimeIndustries/github-actions-template.git"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "TODO: your repository url/issues"
+  "author": "hanseltime",
+  "license": "MIT",
+  "engines": {
+    "node": "^20"
   },
-  "homepage": "TODO: your repository url/#readme",
+  "bugs": {
+    "url": "https://github.com/HanseltimeIndustries/github-actions-template/issues"
+  },
+  "homepage": "https://github.com/HanseltimeIndustries/github-actions-template/#readme",
   "devDependencies": {
     "@commitlint/config-angular": "^19.0.3",
     "@semantic-release/changelog": "^6.0.3",
