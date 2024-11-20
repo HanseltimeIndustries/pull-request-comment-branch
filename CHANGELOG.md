@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/HanseltimeIndustries/pull-request-comment-branch/compare/v2.0.0...v3.0.0) (2024-11-20)
+
+
+### Features
+
+* upgrading to node20 ([58b3248](https://github.com/HanseltimeIndustries/pull-request-comment-branch/commit/58b32485f76f294ced68e593d6fce15312416be1))
+
+
+### BREAKING CHANGES
+
+* building against node20
+
 # Changelog
 
 ## Unreleased
