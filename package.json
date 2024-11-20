@@ -17,7 +17,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/HanseltimeIndustries/github-actions-template.git"
+    "url": "https://github.com/HanseltimeIndustries/pull-request-comment-branch.git"
   },
   "author": "hanseltime",
   "license": "MIT",
@@ -25,9 +25,9 @@
     "node": "^20"
   },
   "bugs": {
-    "url": "https://github.com/HanseltimeIndustries/github-actions-template/issues"
+    "url": "https://github.com/HanseltimeIndustries/pull-request-comment-branch/issues"
   },
-  "homepage": "https://github.com/HanseltimeIndustries/github-actions-template/#readme",
+  "homepage": "https://github.com/HanseltimeIndustries/pull-request-comment-branch/#readme",
   "devDependencies": {
     "@commitlint/config-angular": "^19.0.3",
     "@semantic-release/changelog": "^6.0.3",
