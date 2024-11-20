@@ -70,23 +70,22 @@ jobs:
 
 ### Required
 
-Name | Allowed values | Description
--- | -- | --
-`repo_token` | `GITHUB_TOKEN` (default) or PAT | `GITHUB_TOKEN` token or a repo scoped PAT.
+| Name         | Allowed values                  | Description                                |
+| ------------ | ------------------------------- | ------------------------------------------ |
+| `repo_token` | `GITHUB_TOKEN` (default) or PAT | `GITHUB_TOKEN` token or a repo scoped PAT. |
 
 ## Outputs
 
-Name | Decription
--- | --
-`base_ref` | The name of the branch the pull request will merge into.
-`base_sha` | The head sha of the branch the pull request will merge into.
-`head_ref` | The name of the pull request branch the comment belongs to.
-`head_sha` | The head sha of the pull request branch the comment belongs to.
+| Name       | Decription                                                      |
+| ---------- | --------------------------------------------------------------- |
+| `base_ref` | The name of the branch the pull request will merge into.        |
+| `base_sha` | The head sha of the branch the pull request will merge into.    |
+| `head_ref` | The name of the pull request branch the comment belongs to.     |
+| `head_sha` | The head sha of the pull request branch the comment belongs to. |
 
 ## License
 
 The scripts and documentation in this project are released under the [MIT License](LICENSE)
-
 
 # Development
 
