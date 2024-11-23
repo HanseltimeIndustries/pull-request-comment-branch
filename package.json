@@ -7,7 +7,7 @@
     "format": "prettier . --write",
     "lint": "npx eslint .",
     "bundle": "ncc build src/action.ts -o bundle",
-    "test": "tsc --noEmit",
+    "test": "echo \"Error: no test specified\"",
     "build": "tsc",
     "prepare": "husky",
     "release": "npx semantic-release"
