@@ -1,49 +1,27 @@
-# [3.0.0](https://github.com/HanseltimeIndustries/pull-request-comment-branch/compare/v2.0.0...v3.0.0) (2024-11-20)
+## [1.0.2](https://github.com/HanseltimeIndustries/github-actions-template/compare/v1.0.1...v1.0.2) (2026-02-08)
+
+
+### Bug Fixes
+
+* biome ignore builds ([f624f2a](https://github.com/HanseltimeIndustries/github-actions-template/commit/f624f2a30509850a145260b8d0722196d647ef32))
+
+## [1.0.1](https://github.com/HanseltimeIndustries/github-actions-template/compare/v1.0.0...v1.0.1) (2026-02-08)
+
+
+### Bug Fixes
+
+* update to new v2 template sync ([73d6b7b](https://github.com/HanseltimeIndustries/github-actions-template/commit/73d6b7b5250d503e1c9378ab701adcdd19640c72))
+
+# 1.0.0 (2024-11-19)
+
+
+### Bug Fixes
+
+* adding major release tag action ([60f708d](https://github.com/HanseltimeIndustries/github-actions-template/commit/60f708dab4fe10da168ba6924f8b826fac60e058))
+* styling ([584dedd](https://github.com/HanseltimeIndustries/github-actions-template/commit/584deddc33c4a2af017403d668265cea729412fe))
+* updating auto-sync ([da246e0](https://github.com/HanseltimeIndustries/github-actions-template/commit/da246e0154c89ae2aa9d1ac5a16b8da90eddf0c1))
 
 
 ### Features
 
-* upgrading to node20 ([58b3248](https://github.com/HanseltimeIndustries/pull-request-comment-branch/commit/58b32485f76f294ced68e593d6fce15312416be1))
-
-
-### BREAKING CHANGES
-
-* building against node20
-
-# Changelog
-
-## Unreleased
-
-- Bumped `@actions/core` from 1.10.0 to 1.10.1
-- Bumped `@actions/github` from 5.1.1 to 6.0.0
-
-## [2.0.0](https://github.com/xt0rted/pull-request-comment-branch/compare/v1.4.0...v2.0.0) - 2023-03-29
-
-- Updated node runtime from 12 to 16
-- Removed deprecated `ref` and `sha` outputs. If you're using these then you should switch to `head_ref` and `head_sha` respectively.
-
-## [1.4.0](https://github.com/xt0rted/pull-request-comment-branch/compare/v1.3.0...v1.4.0) - 2022-10-23
-
-- Bumped `@actions/core` from 1.2.7 to 1.10.0
-- Bumped `@actions/github` from 4.0.0 to 5.1.1
-- Bumped `node-fetch` from 2.6.1 to 2.6.7
-
-## [1.3.0](https://github.com/xt0rted/pull-request-comment-branch/compare/v1.2.0...v1.3.0) - 2021-05-09
-
-- Bumped `@actions/core` from 1.2.5 to 1.2.7
-- Updated the `repo_token` input so it defaults to `GITHUB_TOKEN`. If you're already using this value you can remove this setting from your workflow.
-
-## [1.2.0](https://github.com/xt0rted/pull-request-comment-branch/compare/v1.1.0...v1.2.0) - 2020-09-09
-
-- Deprecated `ref` and `sha` outputs in favor of `head_ref` and `head_sha`.
-- Added `base_ref` and `base_sha` outputs
-- Bumped `@actions/core` from 1.2.2 to 1.2.5
-- Bumped `@actions/github` from 2.1.1 to 4.0.0
-
-## [1.1.0](https://github.com/xt0rted/pull-request-comment-branch/compare/v1.0.0...v1.1.0) - 2020-02-21
-
-- Bumped `@actions/github` from 2.1.0 to 2.1.1
-
-## [1.0.0](https://github.com/xt0rted/pull-request-comment-branch/releases/tag/v1.0.0) - 2020-02-09
-
-- Initial release
+* base template config ([ee2dbd7](https://github.com/HanseltimeIndustries/github-actions-template/commit/ee2dbd7ed42fdc5641178e44a76eb703ade2c0e8))
