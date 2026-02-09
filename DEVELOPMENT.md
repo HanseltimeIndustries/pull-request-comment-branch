@@ -10,16 +10,16 @@ Install your dependencies:
 npm install
 ```
 
-Lint your project (we use eslint):
+Lint your project (we use [biome)](https://biomejs.dev/guides/getting-started/)):
 
 ```shell
-npm run lint
+npm run lint -- --fix
 ```
 
-Format your project files (we use prettier):
+Format your project files (we use [biome](https://biomejs.dev/guides/getting-started/)):
 
 ```shell
-npm run format
+npm run format -- --fix
 ```
 
 Build your typescript files to .js:
